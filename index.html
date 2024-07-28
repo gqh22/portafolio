@@ -1,11 +1,186 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola Mundo</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Personal Portfolio Website Design | Codehal</title>
+
+  <!-- box icons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
-    <h1>Hola, mundo</h1>
+  <!-- header design -->
+  <header class="header">
+    <a href="#" class="logo">Porfolio</a>
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+      <a href="#"></a>
+    </nav>
+  </header>
+
+  <!-- home section design -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1>Gustavo Quintana</h1>
+      <h3>And I'm a <span class="multiple-text"></span></h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus nihil libero quas esse amet. Repudiandae
+        excepturi nobis porro fugit voluptatem ipsum corporis, expedita animi dolorem ad sit soluta velit ipsa!
+        Atque dolore velit, harum veritatis odit omnis culpa ea enim, iusto doloremque suscipit assumenda error ratione
+        quibusdam laborum repellendus, mollitia molestias adipisci commodi sequi est magni sit fugiat quo. Neque.</p>
+      <div class="social-media">
+        <a href="#"><i class='bx bxl-linkedin'></i></a>
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+        <a href="#"><i class='bx bxl-twitter'></i></a>
+      </div>
+      <a href="#" class="btn"> Download CV</a>
+    </div>
+    <div class="home-img">
+      <img src="images/me1.jpg" alt="">
+    </div>
+  </section>
+  <!-- about section design -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="images/me2.jpg" alt="">
+    </div>
+    <div class="about-content">
+      <h2 class="heading">About <span>Me</span></h2>
+      <h3>Software Developer</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero molestias obcaecati porro animi odit neque
+        natus, aspernatur autem voluptatem ad nostrum accusantium, hic cumque aperiam. Rem odit consequatur sapiente
+        provident impedit repellat ex suscipit, necessitatibus accusamus beatae consequuntur cum veritatis, id quia fuga
+        adipisci veniam blanditiis.</p>
+      <a href="#" class="btn">Read More</a>
+    </div>
+  </section>
+  <!-- services section design -->
+  <section class="services" id="services">
+    <h2 class="heading">Our <span>Services</span></h2>
+    <div class="services-container">
+      <div class="services-box">
+        <i class="bx bx-code-alt"></i>
+        <h3>Web Develoment</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem minima sit quia quidem iusto atque dolores provident, omnis ratione illum!</p>
+        <a href="#" class="btn">Read More</a>
+
+      </div>
+      <div class="services-box">
+        <i class='bx bx-desktop' ></i>
+        <h3>Desktop Develoment</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem minima sit quia quidem iusto atque dolores provident, omnis ratione illum!</p>
+        <a href="#" class="btn">Read More</a>
+
+      </div>
+      <div class="services-box">
+        <i class='bx bx-mobile-alt' ></i>
+        <h3>Mobile Develoment</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem minima sit quia quidem iusto atque dolores provident, omnis ratione illum!</p>
+        <a href="#" class="btn">Read More</a>
+
+      </div>      
+    </div>
+  </section>
+  <!-- portfolio section design -->
+<section class="portfolio" id="portfolio">
+  <h2 class="heading">Lastet <span>Project</span></h2>
+  <div class="portfolio-container">
+    <div class="portfolio-box">
+      <img src="images/portfolio1.jpg" alt="">
+      <div class="portfolio-layer">
+        <h4>Web Design</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, earum?</p>
+        <a href="#"><i class="bx bx-link-external"></i></a>
+      </div>
+    </div>
+    <div class="portfolio-box">
+      <img src="images/portfolio2.jpg" alt="">
+      <div class="portfolio-layer">
+        <h4>Web Design</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, earum?</p>
+        <a href="#"><i class="bx bx-link-external"></i></a>
+      </div>
+    </div>
+    <div class="portfolio-box">
+      <img src="images/portfolio3.jpg" alt="">
+      <div class="portfolio-layer">
+        <h4>Web Design</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, earum?</p>
+        <a href="#"><i class="bx bx-link-external"></i></a>
+      </div>
+    </div>
+    <div class="portfolio-box">
+      <img src="images/portfolio4.jpg" alt="">
+      <div class="portfolio-layer">
+        <h4>Web Design</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, earum?</p>
+        <a href="#"><i class="bx bx-link-external"></i></a>
+      </div>
+    </div>
+    <div class="portfolio-box">
+      <img src="images/portfolio5.jpg" alt="">
+      <div class="portfolio-layer">
+        <h4>Web Design</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, earum?</p>
+        <a href="#"><i class="bx bx-link-external"></i></a>
+      </div>
+    </div>
+    <div class="portfolio-box">
+      <img src="images/portfolio6.jpg" alt="">
+      <div class="portfolio-layer">
+        <h4>Web Design</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, earum?</p>
+        <a href="#"><i class="bx bx-link-external"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- contact section design -->
+   <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+    <form action="#">
+      <div class="input-box">
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email Address">
+      </div>
+      <div class="input-box">
+        <input type="number" placeholder="Mobile Number">
+        <input type="text" placeholder="Email Subject">
+      </div>
+      <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+      <input type="submit" value="Send Message" class="btn">
+    </form>
+   </section>
+  <!-- footer design -->
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Copyrigth &copy; 2024 by GIQH | All Rigths Reserved</p>
+    </div>
+    <div class="footer-iconTop">
+      <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+    </div>
+  </footer>
+
+  <!-- scroll reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- typed js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <!-- custom js -->
+  <script src="js/script.js"></script>
 </body>
+
 </html>
