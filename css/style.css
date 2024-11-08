@@ -188,6 +188,10 @@ span {
     font-size: 4.5rem;
 }
 
+#full-content{
+    display: none;
+}
+
 .about-content h2 {
     text-align: left;
     line-height: 1.2;

@@ -1,3 +1,22 @@
+function toggleContent() {
+    const shortContent = document.getElementById("short-content");
+    const fullContent = document.getElementById("full-content");
+    const button = document.getElementById("read-more-btn");
+  
+    if (fullContent.style.display === "none") {
+      fullContent.style.display = "block";
+      shortContent.style.display = "none";
+      button.innerText = "Leer menos";
+    } else {
+      fullContent.style.display = "none";
+      shortContent.style.display = "block";
+      button.innerText = "Leer más";
+    }
+  }
+
+
+
+
 /*==================== toggle icon navbar ====================*/
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
